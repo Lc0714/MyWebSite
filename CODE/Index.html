@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Index</title>
+    <link href="Style/bootstrap.css" rel="stylesheet">
+    <link href="Style/index.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<nav class="navbar navbar-fixed-top" id="nav-lcb" role="navigation">
+    <div class="container">
+        <h1 class="logo">
+            <a class="navbar-brand" href="#">Champion</a>
+        </h1>
+        <div class="navbar-header">
+            <button type="button" class="collapsed navbar-toggle" data-target="#navbar" data-toggle="collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div id="navbar" class="navbar-header-collapse navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="button"><a href="#">我的首页</a></li>
+                <li><a href="#">关于我的</a></li>
+                <li><a href="#">相关服务</a></li>
+                <li><a href="#">相关文档</a></li>
+                <li><a href="#">我的博客</a></li>
+                <li><a href="#">将来展望</a></li>
+                <li><a href="#">联系方式</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<section id="banner" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#banner" data-slide-top="0" class="active"></li>
+        <li data-target="#banner" data-slide-top="1"></li>
+        <li data-target="#banner" data-slide-top="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h2>Champion</h2>
+                    <p>The Web Developer</p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h2>Hello</h2>
+                    <p>The Second Page</p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h2>World</h2>
+                    <p>The Third Page</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a class="left carousel-control" href="#banner" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#banner" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</section>
+<article class="container marketing">
+    <div class="row" id="row">
+        <h2 class="col-md-12">
+            <a class="link">相关文档</a>
+            <div class="btn_more">
+                <a href="#" role="button" class="btn btn-danger btn-lg">More</a>
+            </div>
+        </h2>
+        <div class="col-md-3 text-center">
+            <div class="content">
+                <img src="Images/html.png" alt="..." class="img-rounded">
+                <h3>HTML相关</h3>
+                <p class="p-info">HTML即超文本标记语言或超文本链接标示语言，是目前网络上应用最为广泛的语言，也是构成网页文档的主要语言。
+                </p>
+                <p>
+                    <a href="#" role="button" class="btn btn-default btn-info">查看详情</a>
+                </p>
+            </div>
+        </div>
+        <div class="col-md-3 text-center">
+            <div class="content">
+                <img src="Images/net.png" alt="..." class="img-rounded">
+                <h3>ASP.NET相关</h3>
+                <p class="p-info">
+                    ASP.NET是.NET FrameWork的一部分，是一种使嵌入网页中的脚本可由因特网服务器执行的服务器端脚本技术。
+                </p>
+                <p>
+                    <a href="#" role="button" class="btn btn-default btn-info">查看详情</a>
+                </p>
+            </div>
+        </div>
+        <div class="col-md-3 text-center">
+            <div class="content">
+                <img src="Images/javascript.png" alt="..." class="img-rounded">
+                <h3>JavaScript相关</h3>
+                <p class="p-info">
+                    JavaScript一种直译式脚本语言，广泛用于客户端的脚本语言，最早是在HTML网页上使用，用来给HTML网页增加动态功能。
+                </p>
+                <p>
+                    <a href="#" role="button" class="btn btn-default btn-info">查看详情</a>
+                </p>
+            </div>
+        </div>
+        <div class="col-md-3 text-center">
+            <div class="content">
+                <img src="Images/node.png" alt="..." class="img-rounded">
+                <h3>Node.JS相关</h3>
+                <p class="p-info">
+                    Node.js是一个基于Chrome JavaScript运行时建立的一个平台,用来方便地搭建快速的易于扩展的网络应用。
+                </p>
+                <p>
+                    <a href="#" role="button" class="btn btn-default btn-info">查看详情</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</article>
+<script type="text/javascript" src="Script/jquery.min.js"></script>
+<script type="text/javascript" src="Script/bootstrap.js"></script>
+</body>
+</html>
